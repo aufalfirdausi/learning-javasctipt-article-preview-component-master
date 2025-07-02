@@ -45,25 +45,47 @@ body {
             right: 0;
 
             h4 {
-              color: $very-light-grayish-blue;  
+              color: $very-light-grayish-blue; 
+              font-weight: 700;  
             }
 
             p {
                 font-size: 13px;
                 padding-bottom: 10px;
+                color: $Desaturated-Dark-Blue;
             }
 
             .prof {
-                display: flex;
-                margin-right: auto;
                 gap: 10px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
                 .ava {
                     width: 40px;
                     height: 40px;
                     border-radius: 50%;
                 }
+
                 p {
-                    
+                    padding: 0;
+                }
+
+                & > :nth-child(2) {
+                    font-weight: bold;
+                    color: $very-light-grayish-blue;
+
+                    span {
+                        font-size: 12px;
+                        color: $Desaturated-Dark-Blue;
+                    }
+                }
+
+                #share {
+                    margin-left: auto;
+                    background-color: $Light-Grayish-Blue;
+                    padding: 7px;
+                    border-radius: 50%;
+                    cursor: pointer;
                 }
             }
         }

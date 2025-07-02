@@ -37,20 +37,41 @@ body .container .right-core {
 }
 body .container .right-core h4 {
   color: hsl(217, 19%, 35%);
+  font-weight: 700;
 }
 body .container .right-core p {
   font-size: 13px;
   padding-bottom: 10px;
+  color: hsl(214, 17%, 51%);
 }
 body .container .right-core .prof {
-  display: flex;
-  margin-right: auto;
   gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 body .container .right-core .prof .ava {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+body .container .right-core .prof p {
+  padding: 0;
+}
+body .container .right-core .prof > :nth-child(2) {
+  font-weight: bold;
+  color: hsl(217, 19%, 35%);
+}
+body .container .right-core .prof > :nth-child(2) span {
+  font-size: 12px;
+  color: hsl(214, 17%, 51%);
+}
+body .container .right-core .prof #share {
+  margin-left: auto;
+  background-color: hsl(210, 46%, 95%);
+  padding: 7px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 body .attribution {
   font-size: 11px;
