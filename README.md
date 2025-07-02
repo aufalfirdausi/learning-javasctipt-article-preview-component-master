@@ -1,5 +1,11 @@
 # Frontend Mentor - Article preview component
 
+## My Solution
+This is my implementation of the Article Preview Component challenge with:
+- Responsive design
+- Interactive share button with hover effects
+- Social media sharing icons
+
 ![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
