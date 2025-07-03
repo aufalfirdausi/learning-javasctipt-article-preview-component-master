@@ -31,7 +31,7 @@ icons.forEach(iconSrc => {
     img.style.width = '20px'
     img.style.height = '20px'
     img.style.cursor = 'pointer'
-    img.style.filter = 'brightness(0) inverit(1)' // Make icons white
+    img.style.filter = 'brightness(0) invert(1)' // Make icons white
     iconContainer.appendChild(img)
 })
 
